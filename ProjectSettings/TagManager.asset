@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BG
+    uniqueID: 3298676859
+    locked: 0
+  - name: Ground
+    uniqueID: 3293986817
+    locked: 0
+  - name: Plant
+    uniqueID: 1702910575
+    locked: 0
+  - name: Seed
+    uniqueID: 670245105
+    locked: 0
