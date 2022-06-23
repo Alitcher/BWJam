@@ -50,6 +50,9 @@ TagManager:
   - name: Plant
     uniqueID: 1702910575
     locked: 0
+  - name: Item
+    uniqueID: 488765451
+    locked: 0
   - name: Seed
     uniqueID: 670245105
     locked: 0
