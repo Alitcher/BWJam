@@ -1,0 +1,896 @@
+fileFormatVersion: 2
+guid: b463df1e7109bbf4c88dc1155278245c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2549437963222020921
+    second: Plant-v1-green-yellow_0
+  - first:
+      213: -1232550392248436731
+    second: Plant-v1-green-yellow_1
+  - first:
+      213: -3073147803341052511
+    second: Plant-v1-green-yellow_2
+  - first:
+      213: -1482181114770113450
+    second: Plant-v1-green-yellow_3
+  - first:
+      213: -559898355069197113
+    second: Plant-v1-green-yellow_4
+  - first:
+      213: -7516056807314365444
+    second: Plant-v1-green-yellow_5
+  - first:
+      213: -3612167020753612244
+    second: Plant-v1-green-yellow_6
+  - first:
+      213: 5913079729739477233
+    second: Plant-v1-green-yellow_7
+  - first:
+      213: 8207213147816902097
+    second: Plant-v1-green-yellow_8
+  - first:
+      213: 705352820816758898
+    second: Plant-v1-green-yellow_9
+  - first:
+      213: 1839928135811818779
+    second: Plant-v1-green-yellow_10
+  - first:
+      213: -6481073694834171130
+    second: Plant-v1-green-yellow_11
+  - first:
+      213: -7499002220054691754
+    second: Plant-v1-green-yellow_12
+  - first:
+      213: 7352745316280195763
+    second: Plant-v1-green-yellow_13
+  - first:
+      213: -950959676736964543
+    second: Plant-v1-green-yellow_14
+  - first:
+      213: -5644192293370047512
+    second: Plant-v1-green-yellow_16
+  - first:
+      213: -4499712658378172456
+    second: Plant-v1-green-yellow_17
+  - first:
+      213: -8361444303715310785
+    second: Plant-v1-green-yellow_18
+  - first:
+      213: 3873857119556182375
+    second: Plant-v1-green-yellow_19
+  - first:
+      213: -5320649376260704679
+    second: Plant-v1-green-yellow_20
+  - first:
+      213: 4129396775149471112
+    second: Plant-v1-green-yellow_21
+  - first:
+      213: -3364387750989026268
+    second: Plant-v1-green-yellow_22
+  - first:
+      213: 120715950244200140
+    second: Plant-v1-green-yellow_23
+  - first:
+      213: 1989086879994254927
+    second: Plant-v1-green-yellow_24
+  - first:
+      213: -6754506327143105322
+    second: Plant-v1-green-yellow_25
+  - first:
+      213: 1822186385142691936
+    second: Plant-v1-green-yellow_26
+  - first:
+      213: -3550276743247953464
+    second: Plant-v1-green-yellow_27
+  - first:
+      213: 549330283010235602
+    second: Plant-v1-green-yellow_28
+  - first:
+      213: 7388022873733813003
+    second: Plant-v1-green-yellow_29
+  - first:
+      213: -2136941062996458442
+    second: Plant-v1-green-yellow_30
+  - first:
+      213: 149210180015928971
+    second: Plant-v1-green-yellow_31
+  - first:
+      213: -8353510228118338593
+    second: UI-Element-1
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_0
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3332
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9337ebee15c616320800000000000000
+      internalID: 2549437963222020921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_1
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 3330
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5087346d2f915eee0800000000000000
+      internalID: -1232550392248436731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_2
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 3049
+        width: 574
+        height: 419
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5a597ea5cf955d0800000000000000
+      internalID: -3073147803341052511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_3
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 0
+        width: 152
+        height: 3600
+      alignment: 9
+      pivot: {x: 0.47758403, y: 0.0031232839}
+      border: {x: 0, y: 2161, z: 0, w: 914}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cb559012c3e6be0800000000000000
+      internalID: -1482181114770113450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_4
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2936
+        width: 127
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c466cb9967da38f0800000000000000
+      internalID: -559898355069197113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_5
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 2936
+        width: 126
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3ee50d72a91b790800000000000000
+      internalID: -7516056807314365444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_6
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 2820
+        width: 868
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2299929b310fddc0800000000000000
+      internalID: -3612167020753612244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_7
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 2974
+        width: 145
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f03fa37faa7f0250800000000000000
+      internalID: 5913079729739477233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_8
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 2535
+        width: 172
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddba8fcfd0e5e170800000000000000
+      internalID: 8207213147816902097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_9
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 2535
+        width: 214
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2784a1647aae9c900800000000000000
+      internalID: 705352820816758898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_10
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 2580
+        width: 248
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b156f4324ecb88910800000000000000
+      internalID: 1839928135811818779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_11
+      rect:
+        serializedVersion: 2
+        x: 2717
+        y: 2123
+        width: 752
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603e74010d99e06a0800000000000000
+      internalID: -6481073694834171130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_12
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 2481
+        width: 99
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65046c756313ee790800000000000000
+      internalID: -7499002220054691754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_13
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 2246
+        width: 69
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba5ccc98e23a0660800000000000000
+      internalID: 7352745316280195763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_14
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 2226
+        width: 67
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1487f5066338dc2f0800000000000000
+      internalID: -950959676736964543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_16
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 2363
+        width: 166
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e35ead630dcba1b0800000000000000
+      internalID: -5644192293370047512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_17
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 2052
+        width: 225
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d75a0e7d2fcd81c0800000000000000
+      internalID: -4499712658378172456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_18
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 2046
+        width: 376
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33e5d3e4be26fb80800000000000000
+      internalID: -8361444303715310785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_19
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1963
+        width: 2046
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761a3c19684b2c530800000000000000
+      internalID: 3873857119556182375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_20
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1518
+        width: 285
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956b39115914926b0800000000000000
+      internalID: -5320649376260704679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_21
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1520
+        width: 487
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8858d6f0d709e4930800000000000000
+      internalID: 4129396775149471112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_22
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 1461
+        width: 798
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42caf9f6a2b4f41d0800000000000000
+      internalID: -3364387750989026268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_23
+      rect:
+        serializedVersion: 2
+        x: 3691
+        y: 1611
+        width: 196
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce7705648edca100800000000000000
+      internalID: 120715950244200140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_24
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 945
+        width: 340
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46927d8af7aa9b10800000000000000
+      internalID: 1989086879994254927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_25
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 945
+        width: 582
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcb189484c2342a0800000000000000
+      internalID: -6754506327143105322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_26
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 784
+        width: 890
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068bbf8ecd4b94910800000000000000
+      internalID: 1822186385142691936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_27
+      rect:
+        serializedVersion: 2
+        x: 3742
+        y: 954
+        width: 141
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c10068bc12eabec0800000000000000
+      internalID: -3550276743247953464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_28
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 274
+        width: 457
+        height: 457
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc903f5bfc9f9700800000000000000
+      internalID: 549330283010235602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_29
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 276
+        width: 740
+        height: 457
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b035d5509a7878660800000000000000
+      internalID: 7388022873733813003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_30
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 446
+        width: 245
+        height: 40
+      alignment: 9
+      pivot: {x: 0.9952886, y: 0.49999923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634862adc6f0852e0800000000000000
+      internalID: -2136941062996458442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant-v1-green-yellow_31
+      rect:
+        serializedVersion: 2
+        x: 3042
+        y: 128
+        width: 396
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86b8b04ed9121200800000000000000
+      internalID: 149210180015928971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Element-1
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 3351
+        width: 154
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd30a61d4be521c80800000000000000
+      internalID: -8353510228118338593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
