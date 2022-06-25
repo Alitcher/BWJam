@@ -7,7 +7,7 @@ TextureImporter:
     second: Plant-v1-green-yellow_0
   - first:
       213: -1232550392248436731
-    second: Plant-v1-green-yellow_1
+    second: lv0-seed
   - first:
       213: -3073147803341052511
     second: Plant-v1-green-yellow_2
@@ -19,10 +19,10 @@ TextureImporter:
     second: Plant-v1-green-yellow_4
   - first:
       213: -7516056807314365444
-    second: Plant-v1-green-yellow_5
+    second: lv1-seed
   - first:
       213: -3612167020753612244
-    second: Plant-v1-green-yellow_6
+    second: Plant-v1-leaf1
   - first:
       213: 5913079729739477233
     second: Plant-v1-green-yellow_7
@@ -31,7 +31,7 @@ TextureImporter:
     second: Plant-v1-green-yellow_8
   - first:
       213: 705352820816758898
-    second: Plant-v1-green-yellow_9
+    second: lv2-too-young-fruit
   - first:
       213: 1839928135811818779
     second: Plant-v1-green-yellow_10
@@ -55,7 +55,7 @@ TextureImporter:
     second: Plant-v1-green-yellow_17
   - first:
       213: -8361444303715310785
-    second: Plant-v1-green-yellow_18
+    second: lv3-too-young-fruit
   - first:
       213: 3873857119556182375
     second: Plant-v1-green-yellow_19
@@ -64,10 +64,10 @@ TextureImporter:
     second: Plant-v1-green-yellow_20
   - first:
       213: 4129396775149471112
-    second: Plant-v1-green-yellow_21
+    second: lv4-collectable-fruit
   - first:
       213: -3364387750989026268
-    second: Plant-v1-green-yellow_22
+    second: Plant-v1-leaf2
   - first:
       213: 120715950244200140
     second: Plant-v1-green-yellow_23
@@ -76,7 +76,7 @@ TextureImporter:
     second: Plant-v1-green-yellow_24
   - first:
       213: -6754506327143105322
-    second: Plant-v1-green-yellow_25
+    second: lv5-collectable-fruit
   - first:
       213: 1822186385142691936
     second: Plant-v1-green-yellow_26
@@ -88,7 +88,7 @@ TextureImporter:
     second: Plant-v1-green-yellow_28
   - first:
       213: 7388022873733813003
-    second: Plant-v1-green-yellow_29
+    second: lv6-collectable-fruit
   - first:
       213: -2136941062996458442
     second: Plant-v1-green-yellow_30
@@ -228,15 +228,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant-v1-green-yellow_1
+      name: lv0-seed
       rect:
         serializedVersion: 2
-        x: 1315
+        x: 1311
         y: 3330
         width: 71
         height: 71
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -312,15 +312,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant-v1-green-yellow_5
+      name: lv1-seed
       rect:
         serializedVersion: 2
-        x: 1301
-        y: 2936
+        x: 1293
+        y: 2940
         width: 126
         height: 119
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -333,15 +333,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant-v1-green-yellow_6
+      name: Plant-v1-leaf1
       rect:
         serializedVersion: 2
-        x: 2706
+        x: 2702
         y: 2820
         width: 868
         height: 482
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -396,15 +396,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant-v1-green-yellow_9
+      name: lv2-too-young-fruit
       rect:
         serializedVersion: 2
         x: 1275
         y: 2535
         width: 214
         height: 164
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -445,8 +445,8 @@ TextureImporter:
         y: 2123
         width: 752
         height: 554
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -564,15 +564,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant-v1-green-yellow_18
+      name: lv3-too-young-fruit
       rect:
         serializedVersion: 2
         x: 1259
-        y: 2046
+        y: 2050
         width: 376
         height: 236
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -627,15 +627,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant-v1-green-yellow_21
+      name: lv4-collectable-fruit
       rect:
         serializedVersion: 2
         x: 1216
         y: 1520
         width: 487
         height: 317
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -648,15 +648,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant-v1-green-yellow_22
+      name: Plant-v1-leaf2
       rect:
         serializedVersion: 2
-        x: 2741
+        x: 2739
         y: 1461
         width: 798
         height: 498
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -711,15 +711,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant-v1-green-yellow_25
+      name: lv5-collectable-fruit
       rect:
         serializedVersion: 2
         x: 1186
         y: 945
         width: 582
         height: 358
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -739,8 +739,8 @@ TextureImporter:
         y: 784
         width: 890
         height: 511
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -795,15 +795,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant-v1-green-yellow_29
+      name: lv6-collectable-fruit
       rect:
         serializedVersion: 2
-        x: 1166
+        x: 1162
         y: 276
         width: 740
         height: 457
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -824,7 +824,7 @@ TextureImporter:
         width: 245
         height: 40
       alignment: 9
-      pivot: {x: 0.9952886, y: 0.49999923}
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76fa9bc855e6ad4c957ba10644d72a5, type: 3}
+  m_Name: FruitConfig
+  m_EditorClassIdentifier: 
+  LevelScaleValues:
+  - fruitPic: {fileID: -1232550392248436731, guid: b463df1e7109bbf4c88dc1155278245c,
+      type: 3}
+    LevelScaleValues: 0.5
+    Offset: {x: 0.4, y: 0}
+    Radius: 0.355
+    IsCollectable: 0
+  - fruitPic: {fileID: -7516056807314365444, guid: b463df1e7109bbf4c88dc1155278245c,
+      type: 3}
+    LevelScaleValues: 0.65
+    Offset: {x: 0.7, y: 0}
+    Radius: 0.56
+    IsCollectable: 0
+  - fruitPic: {fileID: 705352820816758898, guid: b463df1e7109bbf4c88dc1155278245c,
+      type: 3}
+    LevelScaleValues: 0.65
+    Offset: {x: 1.16, y: 0}
+    Radius: 1
+    IsCollectable: 0
+  - fruitPic: {fileID: -8361444303715310785, guid: b463df1e7109bbf4c88dc1155278245c,
+      type: 3}
+    LevelScaleValues: 0.65
+    Offset: {x: 0, y: 0}
+    Radius: 0.355
+    IsCollectable: 0
+  - fruitPic: {fileID: 4129396775149471112, guid: b463df1e7109bbf4c88dc1155278245c,
+      type: 3}
+    LevelScaleValues: 0.65
+    Offset: {x: 1.5, y: 0}
+    Radius: 1.3
+    IsCollectable: 1
+  - fruitPic: {fileID: -6754506327143105322, guid: b463df1e7109bbf4c88dc1155278245c,
+      type: 3}
+    LevelScaleValues: 0.6
+    Offset: {x: 1.7, y: 0}
+    Radius: 1.55
+    IsCollectable: 1
+  - fruitPic: {fileID: 7388022873733813003, guid: b463df1e7109bbf4c88dc1155278245c,
+      type: 3}
+    LevelScaleValues: 0.65
+    Offset: {x: 2.27, y: 0}
+    Radius: 2.03
+    IsCollectable: 1
+  - fruitPic: {fileID: 7388022873733813003, guid: b463df1e7109bbf4c88dc1155278245c,
+      type: 3}
+    LevelScaleValues: 0.55
+    Offset: {x: 2.27, y: 0}
+    Radius: 2.03
+    IsCollectable: 1

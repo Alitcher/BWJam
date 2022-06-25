@@ -10,7 +10,7 @@ public class LayerShaker : MonoBehaviour
 
     private float currentShakeDuration;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         originalPos = this.transform.position;
         currentShakeDuration = shakeDuration;
