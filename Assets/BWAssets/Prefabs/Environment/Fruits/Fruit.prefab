@@ -214,7 +214,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1497333921762972972
 Transform:
   m_ObjectHideFlags: 0
@@ -349,8 +349,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleExplo: {fileID: 1497333922704647638}
-  fruit: {fileID: 1497333921762972974}
-  currentLevel: 0
+  fruitGroup:
+  - {fileID: 1497333921762972974}
+  - {fileID: 3655421684820788338}
+  - {fileID: 37115013968540387}
+  - {fileID: 1113809197380425383}
+  - {fileID: 7272976330819390186}
+  - {fileID: 8827209382988119097}
+  - {fileID: 2692206602170534707}
+  currentLevel: 6
   fruitPreset: {fileID: 11400000, guid: f7bab754c8c70904ea835829cfe49efa, type: 2}
 --- !u!50 &1497333921797322507
 Rigidbody2D:
@@ -5143,7 +5150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &448429126447908345
 Transform:
   m_ObjectHideFlags: 0
@@ -5153,7 +5160,7 @@ Transform:
   m_GameObject: {fileID: 2692206602170534707}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.13, y: 0.13, z: 0.13}
   m_Children: []
   m_Father: {fileID: 1497333921797322518}
   m_RootOrder: 7
@@ -5222,7 +5229,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 2.27, y: 0}
+  m_Offset: {x: -2.83, y: 0}
   serializedVersion: 2
   m_Radius: 2.03
 --- !u!1 &3655421684820788338

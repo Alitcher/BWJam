@@ -48,11 +48,11 @@ TagManager:
   - name: BG
     uniqueID: 3298676859
     locked: 0
-  - name: Ground
-    uniqueID: 3293986817
-    locked: 0
   - name: Plant
     uniqueID: 1702910575
+    locked: 0
+  - name: Ground
+    uniqueID: 3293986817
     locked: 0
   - name: Fruit
     uniqueID: 2255176095
@@ -62,6 +62,9 @@ TagManager:
     locked: 0
   - name: Seed
     uniqueID: 670245105
+    locked: 0
+  - name: Leaf
+    uniqueID: 39525139
     locked: 0
   - name: Effects
     uniqueID: 276036039

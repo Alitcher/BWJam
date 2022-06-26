@@ -1,24 +1,36 @@
-﻿using System.Collections;
+﻿using BWAssets.Utils;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : GenericSingleton<GameManager>
+namespace BWAssets.Game
 {
-    [SerializeField] private DevDebugPanel devPanel;
-
-    public BWConfig ConfigRef;
-    public List<GameObject> RegisteredSeeds;
-    public LayerShaker shakerRef;
-
-    // Start is called before the first frame update
-    void Start()
+    public class GameManager : GenericSingleton<GameManager>
     {
-        
-    }
+        [SerializeField] private DevDebugPanel devPanel;
+        [SerializeField] private CameraManager camManagerRef;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public BWConfig ConfigRef;
+        public List<GameObject> RegisteredSeeds;
+        public LayerShaker shakerRef;
+        public GameProgress CurrentProgress;
+
+        // Start is called before the first frame update
+        void Start()
+        {
+            CurrentProgress = GameProgress.JustStarted;
+            camManagerRef.CheckCurrentProgress(CurrentProgress);
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                if (CurrentProgress < GameProgress.Max)
+                    CurrentProgress++;
+                camManagerRef.CheckCurrentProgress(CurrentProgress);
+            }
+        }
     }
 }
+
