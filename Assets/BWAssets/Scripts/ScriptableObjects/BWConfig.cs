@@ -8,6 +8,6 @@ public class BWConfig : ScriptableObject
     public Color32 Green;
     public Color32 Yellow;
 
-    public float[] plantLevelScale;
-    public float[] fruitLevelScale;
+    public float MoneyGoalToBeatLevel = 120000f;
+    public int GameTimeInSeconds;
 }

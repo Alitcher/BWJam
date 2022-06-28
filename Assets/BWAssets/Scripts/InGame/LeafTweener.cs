@@ -32,9 +32,4 @@ public class LeafTweener : MonoBehaviour
         //    .OnComplete(() => this.transform.DOLocalRotate(rotateValues[0], duration))).SetLoops(999);
 
     }
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }

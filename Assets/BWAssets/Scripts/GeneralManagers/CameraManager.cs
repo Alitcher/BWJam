@@ -10,6 +10,7 @@ public class CameraManager : MonoBehaviour
 
     public void CheckCurrentProgress(GameProgress progress)
     {
+
         Camera.main.transform.DOLocalMoveY(CameraOnProgress[(int)progress].YValues, CameraOnProgress[(int)progress].duration);
         Camera.main.DOOrthoSize(CameraOnProgress[(int)progress].Size, CameraOnProgress[(int)progress].duration);
     }

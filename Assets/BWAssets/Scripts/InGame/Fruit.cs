@@ -27,12 +27,16 @@ namespace BWAssets.Plants
 
         private void OnMouseDown()
         {
-            Destroy(this.gameObject);
+            if(currentLevel >= (int)FruitLevel.Collectable) 
+            {
+                GameManager.I.IncreaseMoney(25.9f);
+                Destroy(this.gameObject);
+            }
         }
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            if (collision.gameObject.tag == "Ground")
+            if (collision.gameObject.tag == "Ground" && currentLevel == (int)FruitLevel.Falling)
             {
                 foreach (var fruit in fruitGroup)
                 {
