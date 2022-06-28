@@ -246,7 +246,7 @@ PrefabInstance:
     - target: {fileID: 106339179221998210, guid: e7b889ec09914c24eb34e95231476f15,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 106339179221998210, guid: e7b889ec09914c24eb34e95231476f15,
         type: 3}
@@ -1026,7 +1026,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &750018973
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2079,7 +2079,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -393.21, y: -142.6599}
+  m_AnchoredPosition: {x: -404.3, y: -30.4}
   m_SizeDelta: {x: 151.587, y: 48.239822}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1583665286
@@ -2383,7 +2383,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Two Shade Grove
+  m_Text: 'Grove
+
+    Dome'
 --- !u!222 &1904525817
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2622,7 +2624,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2109575215
 RectTransform:
   m_ObjectHideFlags: 0

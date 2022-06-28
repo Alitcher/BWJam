@@ -7,7 +7,6 @@ namespace BWAssets.Plants
 {
     public class Plant : MonoBehaviour
     {
-        [SerializeField] private PlantConfig config;
         [SerializeField] private int currentLevel;
         [SerializeField] private SubPlant[] plantsAllLevels;
         [SerializeField] private Transform[] fruitSpawnPoints;
@@ -16,134 +15,154 @@ namespace BWAssets.Plants
         [SerializeField] private LineRenderer lineSeed;
 
         [SerializeField] private float currentTime;
-        private float totalTime => config.GrowingRate[6];
 
         // Start is called before the first frame update
         void Start()
         {
-           // currentLevel = 0;
+             currentLevel = 0;
         }
 
         // Update is called once per frame
         void Update()
         {
 #if UNITY_EDITOR
-            TestPlantState();
+            CheatPlantState();
 #endif
             currentTime += Time.deltaTime;
-            //CheckDuration();
+            SetPlantGrowingAnimation();
             if (currentLevel == (int)PlantLevel.FullyGrown)
                 return;
 
 
-           // GrowPlant();
+            // GrowPlant();
         }
 
-        private void CheckDuration()
+        private void GrowSeed()
         {
-            if (currentTime > config.GrowingRate[0] && currentTime < config.GrowingRate[1])
+            if (currentLevel == 999)
+                return;
+
+            if (currentLevel == 0)
             {
-                level = PlantLevel.Sprout;
-                currentLevel = 1;
+                if (PlantsStateData[0].LineSizes[1] != PlantsStateData[1].LineSizes[1])
+                {
+                    // lineSeed.SetPosition(1, PlantGrowingState[]);
+                    level = PlantLevel.Sprout;
+                    currentLevel = 1;
+                }
             }
-            else if (currentTime > config.GrowingRate[1] && currentTime < config.GrowingRate[2])
-            {
-                level = PlantLevel.Sprout;
-                currentLevel = 2;
-            }
-            else if (currentTime > config.GrowingRate[2] && currentTime < config.GrowingRate[3])
-            {
-                level = PlantLevel.Sprout;
-                currentLevel = 3;
-            }
-            else if (currentTime > config.GrowingRate[3] && currentTime < config.GrowingRate[4])
-            {
-                level = PlantLevel.Growing;
-                currentLevel = 4;
-            }
-            else if (currentTime > config.GrowingRate[4] && currentTime < config.GrowingRate[5])
-            {
-                level = PlantLevel.Growing;
-                currentLevel = 5;
-            }
-            else if (currentTime > config.GrowingRate[5] && currentTime < config.GrowingRate[6])
-            {
-                level = PlantLevel.FullyGrown;
-                currentLevel = 6;
-            }
-            else if (currentTime > config.GrowingRate[6])
-            {
-                level = PlantLevel.FullyGrown;
-                currentLevel = 7;
-            }
+
         }
 
-        private void GrowPlant()
-        {
-            switch (level)
-            {
-                case PlantLevel.Seed:
-                    GrowSeedToSprout();
-                    break;
-                case PlantLevel.Sprout:
-                    //lineSeed.SetColors(PlantsStateData[1].LineColor, PlantsStateData[1].LineColor);
-                    //for (int i = 0; i < lineSeed.positionCount; i++)
-                    //{
-                    //    lineSeed.SetPosition(i, PlantsStateData[1].LineSizes[i]);
-                    //}
-                    //lineSeed.SetVertexCount(PlantsStateData[1].CornerVertex);
-                    break;
-                case PlantLevel.Growing:
-                    break;
-                case PlantLevel.FullyGrown:
-                    break;
-                case PlantLevel.None:
-                    break;
-                default:
-                    break;
-            }
-        }
-
-        private void GrowSeedToSprout()
-        {
-            while (currentLevel <= (int)PlantLevel.Sprout)
-            {
-                dd();
-            }
-            level = PlantLevel.Growing;
-        }
-
-        private void dd()
+        private void SetPlantGrowingAnimation()
         {
             lineSeed.startColor = PlantsStateData[currentLevel].LineColor;
             lineSeed.endColor = PlantsStateData[currentLevel].LineColor;
 
-            for (int i = 0; i < lineSeed.positionCount; i++)
+            if (currentTime < PlantsStateData[1].untilTime)
             {
-                if (lineSeed.GetPosition(i) != PlantsStateData[currentLevel].LineSizes[i])
-                    lineSeed.SetPosition(i, PlantsStateData[currentLevel].LineSizes[i]);
-            }
-            lineSeed.numCapVertices = PlantsStateData[currentLevel].EndVertex;
-            lineSeed.numCornerVertices = PlantsStateData[currentLevel].CornerVertex;
-
-            if (currentLevel < PlantsStateData.Length - 1)
-                while (lineSeed.positionCount < PlantsStateData[currentLevel + 1].LineSizes.Length)
+                for (int i = 0; i < lineSeed.positionCount - 1; i++)
                 {
-                    lineSeed.positionCount++;
+                    if (lineSeed.GetPosition(i + 1) != PlantsStateData[1].LineSizes[i + 1])
+                        lineSeed.SetPosition(i + 1, PlantsStateData[1].LineSizes[i + 1]);
                 }
+                lineSeed.numCapVertices = PlantsStateData[1].EndVertex;
+                lineSeed.numCornerVertices = PlantsStateData[1].CornerVertex;
+                level = PlantLevel.Sprout;
+                currentLevel = 1;
+            }
+            else if (currentTime > PlantsStateData[1].untilTime && currentTime < PlantsStateData[2].untilTime)
+            {
+                for (int i = 0; i < lineSeed.positionCount - 1; i++)
+                {
+                    if (lineSeed.GetPosition(i + 1) != PlantsStateData[2].LineSizes[i + 1])
+                        lineSeed.SetPosition(i + 1, PlantsStateData[2].LineSizes[i + 1]);
+                }
+                lineSeed.numCapVertices = PlantsStateData[2].EndVertex;
+                lineSeed.numCornerVertices = PlantsStateData[2].CornerVertex;
+                currentLevel = 2;
+            }
+            else if (currentTime > PlantsStateData[2].untilTime && currentTime < PlantsStateData[3].untilTime)
+            {
+                for (int i = 0; i < lineSeed.positionCount - 1; i++)
+                {
+                    if (lineSeed.GetPosition(i + 1) != PlantsStateData[3].LineSizes[i + 1])
+                        lineSeed.SetPosition(i + 1, PlantsStateData[3].LineSizes[i + 1]);
+                }
+                lineSeed.numCapVertices = PlantsStateData[3].EndVertex;
+                lineSeed.numCornerVertices = PlantsStateData[3].CornerVertex;
+                currentLevel = 3;
+            }
+            else if (currentTime > PlantsStateData[3].untilTime && currentTime < PlantsStateData[4].untilTime)
+            {
+                for (int i = 0; i < lineSeed.positionCount - 1; i++)
+                {
+                    if (lineSeed.GetPosition(i + 1) != PlantsStateData[4].LineSizes[i + 1])
+                        lineSeed.SetPosition(i + 1, PlantsStateData[4].LineSizes[i + 1]);
+                }
+                lineSeed.numCapVertices = PlantsStateData[4].EndVertex;
+                lineSeed.numCornerVertices = PlantsStateData[4].CornerVertex;
+                currentLevel = 4;
+            }
+            else if (currentTime > PlantsStateData[4].untilTime && currentTime < PlantsStateData[5].untilTime)
+            {
+                for (int i = 0; i < lineSeed.positionCount - 1; i++)
+                {
+                    if (lineSeed.GetPosition(i + 1) != PlantsStateData[5].LineSizes[i + 1])
+                        lineSeed.SetPosition(i + 1, PlantsStateData[5].LineSizes[i + 1]);
+                }
+                lineSeed.numCapVertices = PlantsStateData[5].EndVertex;
+                lineSeed.numCornerVertices = PlantsStateData[5].CornerVertex;
+                currentLevel = 5;
+                level = PlantLevel.Growing;
+            }
+            else if (currentTime > PlantsStateData[5].untilTime && currentTime < PlantsStateData[6].untilTime)
+            {
+                for (int i = 0; i < lineSeed.positionCount - 1; i++)
+                {
+                    if (lineSeed.GetPosition(i + 1) != PlantsStateData[6].LineSizes[i + 1])
+                        lineSeed.SetPosition(i + 1, PlantsStateData[6].LineSizes[i + 1]);
+                }
+                lineSeed.numCapVertices = PlantsStateData[6].EndVertex;
+                lineSeed.numCornerVertices = PlantsStateData[6].CornerVertex;
+                currentLevel = 6;
+                level = PlantLevel.FullyGrown;
+            }
+
+        }
+
+        private IEnumerator AnimatePlant()
+        {
+            float sugmentDuration = PlantsStateData[PlantsStateData.Length - 1].untilTime / PlantsStateData.Length - 1;
+
+            for (int i = 0; i < PlantsStateData.Length - 1; i++)
+            {
+                float startTime = Time.time;
+                for (int j = 1; j < lineSeed.positionCount; j++)
+                {
+
+                }
+                Vector3 startPos = PlantsStateData[i].LineSizes[i];
+                Vector3 endPos = PlantsStateData[i].LineSizes[i + 1];
+            }
+            yield return null;
         }
 
 #if UNITY_EDITOR
-        private void TestPlantState()
+        private void CheatPlantState()
         {
             if (currentLevel == 999)
             {
                 if (Input.GetKeyDown(KeyCode.A))
                 {
+                    if ((int)level >= (int)PlantLevel.FullyGrown)
+                        return;
+
                     for (int i = 0; i < plantsAllLevels.Length; i++)
                     {
                         plantsAllLevels[i].gameObject.SetActive((plantsAllLevels[i].currentLevel == (int)level));
                     }
+
                     level++;
                 }
 
@@ -158,6 +177,7 @@ namespace BWAssets.Plants
             }
         }
 #endif
+
         [System.Serializable]
         public struct PlantGrowingState
         {
@@ -166,6 +186,8 @@ namespace BWAssets.Plants
             public Vector3[] LineSizes;
             public Material Mat;
             public int CornerVertex, EndVertex;
+            public int lineCount => LineSizes.Length;
+            public float untilTime;
         }
     }
 }

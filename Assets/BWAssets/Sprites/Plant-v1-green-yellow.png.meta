@@ -210,7 +210,7 @@ TextureImporter:
       name: Plant-v1-green-yellow_0
       rect:
         serializedVersion: 2
-        x: 448
+        x: 432
         y: 3332
         width: 71
         height: 69
@@ -252,9 +252,9 @@ TextureImporter:
       name: Plant-v1-green-yellow_2
       rect:
         serializedVersion: 2
-        x: 1706
-        y: 3049
-        width: 574
+        x: 1681
+        y: 3052
+        width: 583
         height: 419
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -273,9 +273,9 @@ TextureImporter:
       name: Plant-v1-green-yellow_3
       rect:
         serializedVersion: 2
-        x: 2528
+        x: 2506
         y: 0
-        width: 152
+        width: 153
         height: 3600
       alignment: 9
       pivot: {x: 0.47758403, y: 0.0031232839}
@@ -294,7 +294,7 @@ TextureImporter:
       name: Plant-v1-green-yellow_4
       rect:
         serializedVersion: 2
-        x: 436
+        x: 419
         y: 2936
         width: 127
         height: 119
@@ -315,8 +315,8 @@ TextureImporter:
       name: lv1-seed
       rect:
         serializedVersion: 2
-        x: 1293
-        y: 2940
+        x: 1285
+        y: 2934
         width: 126
         height: 119
       alignment: 5
@@ -336,9 +336,9 @@ TextureImporter:
       name: Plant-v1-leaf1
       rect:
         serializedVersion: 2
-        x: 2702
+        x: 2686
         y: 2820
-        width: 868
+        width: 884
         height: 482
       alignment: 4
       pivot: {x: 0, y: 0.5}
@@ -378,7 +378,7 @@ TextureImporter:
       name: Plant-v1-green-yellow_8
       rect:
         serializedVersion: 2
-        x: 409
+        x: 392
         y: 2535
         width: 172
         height: 164
@@ -399,9 +399,9 @@ TextureImporter:
       name: lv2-too-young-fruit
       rect:
         serializedVersion: 2
-        x: 1270
+        x: 1257
         y: 2535
-        width: 214
+        width: 227
         height: 164
       alignment: 9
       pivot: {x: 0.7, y: 0.5}
@@ -441,9 +441,9 @@ TextureImporter:
       name: Plant-v1-green-yellow_11
       rect:
         serializedVersion: 2
-        x: 2717
+        x: 2698
         y: 2123
-        width: 752
+        width: 771
         height: 554
       alignment: 4
       pivot: {x: 0, y: 0.5}
@@ -546,10 +546,10 @@ TextureImporter:
       name: Plant-v1-green-yellow_17
       rect:
         serializedVersion: 2
-        x: 391
-        y: 2052
-        width: 225
-        height: 234
+        x: 371
+        y: 2049
+        width: 229
+        height: 238
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -567,9 +567,9 @@ TextureImporter:
       name: lv3-too-young-fruit
       rect:
         serializedVersion: 2
-        x: 1253
-        y: 2050
-        width: 376
+        x: 1240
+        y: 2051
+        width: 389
         height: 236
       alignment: 9
       pivot: {x: 0.7, y: 0.5}
@@ -588,9 +588,9 @@ TextureImporter:
       name: Plant-v1-green-yellow_19
       rect:
         serializedVersion: 2
-        x: 82
-        y: 1963
-        width: 2046
+        x: 64
+        y: 1964
+        width: 2064
         height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -609,9 +609,9 @@ TextureImporter:
       name: Plant-v1-green-yellow_20
       rect:
         serializedVersion: 2
-        x: 347
-        y: 1518
-        width: 285
+        x: 326
+        y: 1519
+        width: 292
         height: 301
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -630,9 +630,9 @@ TextureImporter:
       name: lv4-collectable-fruit
       rect:
         serializedVersion: 2
-        x: 1216
+        x: 1196
         y: 1520
-        width: 487
+        width: 507
         height: 317
       alignment: 9
       pivot: {x: 0.7, y: 0.5}
@@ -651,9 +651,9 @@ TextureImporter:
       name: Plant-v1-leaf2
       rect:
         serializedVersion: 2
-        x: 2739
-        y: 1461
-        width: 798
+        x: 2720
+        y: 1463
+        width: 806
         height: 498
       alignment: 4
       pivot: {x: 0, y: 0.5}
@@ -693,9 +693,9 @@ TextureImporter:
       name: Plant-v1-green-yellow_24
       rect:
         serializedVersion: 2
-        x: 318
+        x: 294
         y: 945
-        width: 340
+        width: 364
         height: 358
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -714,9 +714,9 @@ TextureImporter:
       name: lv5-collectable-fruit
       rect:
         serializedVersion: 2
-        x: 1186
+        x: 1164
         y: 945
-        width: 582
+        width: 604
         height: 358
       alignment: 9
       pivot: {x: 0.7, y: 0.5}
@@ -735,12 +735,12 @@ TextureImporter:
       name: Plant-v1-green-yellow_26
       rect:
         serializedVersion: 2
-        x: 2710
+        x: 2687
         y: 784
         width: 890
         height: 511
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.029059319, y: 0.30260956}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -756,9 +756,9 @@ TextureImporter:
       name: Plant-v1-green-yellow_27
       rect:
         serializedVersion: 2
-        x: 3742
+        x: 3720
         y: 954
-        width: 141
+        width: 148
         height: 119
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -777,9 +777,9 @@ TextureImporter:
       name: Plant-v1-green-yellow_28
       rect:
         serializedVersion: 2
-        x: 296
+        x: 263
         y: 274
-        width: 457
+        width: 490
         height: 457
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -798,9 +798,9 @@ TextureImporter:
       name: lv6-collectable-fruit
       rect:
         serializedVersion: 2
-        x: 1162
-        y: 276
-        width: 740
+        x: 1146
+        y: 277
+        width: 756
         height: 457
       alignment: 9
       pivot: {x: 0.7, y: 0.5}
@@ -819,7 +819,7 @@ TextureImporter:
       name: Plant-v1-green-yellow_30
       rect:
         serializedVersion: 2
-        x: 2205
+        x: 2188
         y: 446
         width: 245
         height: 40
@@ -861,9 +861,9 @@ TextureImporter:
       name: UI-Element-1
       rect:
         serializedVersion: 2
-        x: 2523
-        y: 3351
-        width: 154
+        x: 2506
+        y: 3352
+        width: 153
         height: 79
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
