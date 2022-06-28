@@ -248,10 +248,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Alicia     \"Alitch\"      Sudlerd       : Programmer\n                                                 
-    Technical Artist\n                                                  Tester\n\nMarkus 
-    \"Hiisileiri\"   Marttinen    : 2D Artist \n                                                 
-    Game & Sound Designer\n                                                  Tester\n\n"
+  m_Text: "A.     \"Alitch\"      Sudlerd       : Programmer\n                                            
+    Technical Artist\n                                             Tester\n\nM. 
+    \"Hiisileiri\"      Marttinen    : 2D Artist \n                                            
+    Game & Sound Designer\n                                             Tester\n\n"
 --- !u!1 &4916934181112650869
 GameObject:
   m_ObjectHideFlags: 0
