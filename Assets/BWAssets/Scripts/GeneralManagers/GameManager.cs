@@ -105,6 +105,7 @@ namespace BWAssets.Game
             }
             else if (IsGameWon()) 
             {
+                ConfigRef.MoneyGoalToBeatLevel += 500;
                 Time.timeScale = 0;
                 bgm.Stop();
                 SoundManager.I.Play("GameWon");

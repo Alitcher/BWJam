@@ -11,8 +11,15 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private Button creditBtn;
     [SerializeField] private Button quitBtn;
 
+    [SerializeField] private Text moneyGoalText, LevelText;
+    [SerializeField] private BWConfig config;
     [SerializeField] private GameObject menuPanel, creditPanel;
 
+    public void Start()
+    {
+        moneyGoalText.text = $"Money goal: ${config.MoneyGoalToBeatLevel}";
+        LevelText.text = $"Level: {config.MoneyGoalToBeatLevel / 500}";
+    }
     public void PlayGame()
     {
         SceneManager.LoadScene("Gameplay");

@@ -52,7 +52,7 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
   - name: GameOver
-    clip: {fileID: 8300000, guid: 3b3c1c488153aba4c9943f35406c86bb, type: 3}
+    clip: {fileID: 8300000, guid: 4e6eef801f964ab47998e72313bd96ff, type: 3}
     PlayOnAwake: 0
     Loop: 0
     vol: 1
@@ -66,14 +66,14 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
   - name: FruitDrop
-    clip: {fileID: 8300000, guid: 3634cddf5a02ed14290c3f1f2bcab2dc, type: 3}
+    clip: {fileID: 8300000, guid: 3b3c1c488153aba4c9943f35406c86bb, type: 3}
     PlayOnAwake: 0
     Loop: 0
     vol: 1
     pitch: 1
     source: {fileID: 0}
   - name: FruitCollected
-    clip: {fileID: 8300000, guid: 078046e4b7a4e78489616410ac72f5cd, type: 3}
+    clip: {fileID: 8300000, guid: a7b5f0b7a2ddd7243bf1c90ebd565929, type: 3}
     PlayOnAwake: 0
     Loop: 0
     vol: 1

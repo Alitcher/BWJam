@@ -996,6 +996,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CloseButton: {fileID: 5064652573287081933}
   menuBtn: {fileID: 5064652573469333069}
+  lextLvBtn: {fileID: 5064652575269082515}
   bonusTxt: {fileID: 5064652573342002580}
 --- !u!114 &5064652575204760995
 MonoBehaviour:
@@ -1238,7 +1239,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5064652575269082514}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6861277151656415742}
+        m_MethodName: OnNextLevelClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7031445709910688597
 GameObject:
   m_ObjectHideFlags: 0
