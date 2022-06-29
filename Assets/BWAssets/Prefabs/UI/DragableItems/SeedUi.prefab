@@ -37,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 7.4, y: -28.5}
-  m_SizeDelta: {x: 25, y: 15}
+  m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3243551360727459440
 CanvasRenderer:
@@ -121,3 +121,4 @@ MonoBehaviour:
   dragDropSelf: {fileID: 3243551360727459441}
   thisRect: {fileID: 3243551360727459452}
   OriginalPos: {x: 0, y: 0, z: 0}
+  itemType: 0

@@ -489,8 +489,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -45, y: -38.599976}
-  m_SizeDelta: {x: 50, y: 50}
+  m_AnchoredPosition: {x: -100, y: -100}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &244135266
 MonoBehaviour:
@@ -3324,7 +3324,7 @@ PrefabInstance:
     - target: {fileID: 1451405488982211638, guid: 39ec20cfab0de3640959b5bceb7b382f,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: -170
+      value: -589.1582
       objectReference: {fileID: 0}
     - target: {fileID: 1451405488982211638, guid: 39ec20cfab0de3640959b5bceb7b382f,
         type: 3}
@@ -3369,12 +3369,12 @@ PrefabInstance:
     - target: {fileID: 1451405488982211638, guid: 39ec20cfab0de3640959b5bceb7b382f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 85
+      value: 24.599976
       objectReference: {fileID: 0}
     - target: {fileID: 1451405488982211638, guid: 39ec20cfab0de3640959b5bceb7b382f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 55.100098
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 1451405488982211638, guid: 39ec20cfab0de3640959b5bceb7b382f,
         type: 3}
@@ -3395,6 +3395,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CreditPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451405488982212041, guid: 39ec20cfab0de3640959b5bceb7b382f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1451405489752326443, guid: 39ec20cfab0de3640959b5bceb7b382f,
         type: 3}

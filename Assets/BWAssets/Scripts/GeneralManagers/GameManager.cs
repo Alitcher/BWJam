@@ -53,6 +53,7 @@ namespace BWAssets.Game
 
             HP = 3;
             MoneyCollected = 0;
+            Time.timeScale = 1;
             CurrentGameTime = ConfigRef.GameTimeInSeconds;
             // CurrentProgress = GameProgress.JustStarted;
             camManagerRef.CheckCurrentProgress(CurrentProgress);

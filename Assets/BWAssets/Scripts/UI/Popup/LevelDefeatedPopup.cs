@@ -22,7 +22,6 @@ public class LevelDefeatedPopup : BasePopup
     protected void OnRestartClick()
     {
         Time.timeScale = 1;
-
         SceneManager.LoadScene("Gameplay");
     }
 }
