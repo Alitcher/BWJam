@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using BWAssets.Plants;
+using BWAssets.Game;
 
 public class Seed : MonoBehaviour
 {
@@ -12,19 +13,6 @@ public class Seed : MonoBehaviour
     [SerializeField] private CircleCollider2D coll;
 
     [SerializeField] private Plant plantGo;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -45,10 +33,8 @@ public class Seed : MonoBehaviour
 
     private void SpawnSprout()
     {
-        Plant plant = Instantiate(plantGo, this.transform.localPosition ,Quaternion.identity, this.transform);
+        Plant plant = Instantiate(plantGo, this.transform.localPosition ,Quaternion.identity, GameManager.I.parallaxEnv);
         plant.name = plantGo.name;
-
-
         plant.gameObject.SetActive(true);
     }
 }

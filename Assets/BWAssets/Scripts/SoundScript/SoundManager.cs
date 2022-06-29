@@ -2,14 +2,14 @@
 using System;
 using UnityEngine.Audio;
 
-public class SoundManager : GenericSingleton<SoundManager>
+public class SoundManager : MonoBehaviour
 {
-    public static SoundManager Instance { get { return _instance; } }
+    public static SoundManager I { get { return _instance; } }
     private static SoundManager _instance;
 
     public SoundClass[] Sounds;
     // Use this for initialization
-    public override void Awake()
+    public void Awake()
     {
         foreach (SoundClass s in Sounds)
         {
@@ -21,16 +21,16 @@ public class SoundManager : GenericSingleton<SoundManager>
             s.source.playOnAwake = s.PlayOnAwake;
         }
 
-        //if (_instance != null && _instance != this)
-        //{
-        //    Destroy(this.gameObject);
-        //    return;//Avoid doing anything else
-        //}
-        //if (_instance == null)
-        //{
-        //    _instance = this;
-        //    DontDestroyOnLoad(this.gameObject);
-        //}
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+            return;//Avoid doing anything else
+        }
+        if (_instance == null)
+        {
+            _instance = this;
+          //  DontDestroyOnLoad(this.gameObject);
+        }
 
     }
 

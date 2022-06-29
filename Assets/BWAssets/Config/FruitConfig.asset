@@ -13,51 +13,47 @@ MonoBehaviour:
   m_Name: FruitConfig
   m_EditorClassIdentifier: 
   LevelScaleValues:
-  - fruitPic: {fileID: -1232550392248436731, guid: b463df1e7109bbf4c88dc1155278245c,
-      type: 3}
+  - fruitPic: {fileID: 21300000, guid: 351cec993d62c9249a10cb991e632433, type: 3}
     LevelScaleValues: 0.5
     Offset: {x: 0.4, y: 0}
     Radius: 0.355
     IsCollectable: 0
-  - fruitPic: {fileID: -7516056807314365444, guid: b463df1e7109bbf4c88dc1155278245c,
-      type: 3}
+  - fruitPic: {fileID: 21300000, guid: be0e0c9dcf5f9504c84748bc96d532b6, type: 3}
     LevelScaleValues: 0.65
     Offset: {x: 0.7, y: 0}
     Radius: 0.56
     IsCollectable: 0
-  - fruitPic: {fileID: 705352820816758898, guid: b463df1e7109bbf4c88dc1155278245c,
-      type: 3}
+  - fruitPic: {fileID: 21300000, guid: fc65f9108a235134cb30398ce59ddb1c, type: 3}
     LevelScaleValues: 0.65
     Offset: {x: 1.16, y: 0}
     Radius: 1
     IsCollectable: 0
-  - fruitPic: {fileID: -8361444303715310785, guid: b463df1e7109bbf4c88dc1155278245c,
-      type: 3}
+  - fruitPic: {fileID: 21300000, guid: 41972927236b63645bcaa2c0d63bf2d9, type: 3}
     LevelScaleValues: 0.65
     Offset: {x: 0, y: 0}
     Radius: 0.355
     IsCollectable: 0
-  - fruitPic: {fileID: 4129396775149471112, guid: b463df1e7109bbf4c88dc1155278245c,
-      type: 3}
+  - fruitPic: {fileID: 21300000, guid: d139c84e92549604d902deaae27edb8f, type: 3}
     LevelScaleValues: 0.65
     Offset: {x: 1.5, y: 0}
     Radius: 1.3
     IsCollectable: 1
-  - fruitPic: {fileID: -6754506327143105322, guid: b463df1e7109bbf4c88dc1155278245c,
-      type: 3}
+  - fruitPic: {fileID: 21300000, guid: e1983b5c9213d224cb6f12ac9fea51bb, type: 3}
     LevelScaleValues: 0.6
     Offset: {x: 1.7, y: 0}
     Radius: 1.55
     IsCollectable: 1
-  - fruitPic: {fileID: 7388022873733813003, guid: b463df1e7109bbf4c88dc1155278245c,
-      type: 3}
+  - fruitPic: {fileID: 21300000, guid: 467b3178715efbc41a532950aa047869, type: 3}
     LevelScaleValues: 0.65
     Offset: {x: 2.27, y: 0}
     Radius: 2.03
     IsCollectable: 1
-  - fruitPic: {fileID: 7388022873733813003, guid: b463df1e7109bbf4c88dc1155278245c,
-      type: 3}
-    LevelScaleValues: 0.55
-    Offset: {x: 2.27, y: 0}
-    Radius: 2.03
-    IsCollectable: 1
+  FruitLifeTime: 20
+  FruitEachTime:
+  - 0
+  - 1.5
+  - 4
+  - 8
+  - 12
+  - 15
+  - 20

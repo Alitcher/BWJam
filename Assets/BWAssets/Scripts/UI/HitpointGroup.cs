@@ -16,12 +16,15 @@ public class HitpointGroup : MonoBehaviour
             SpawnHeart();
         }
         GameManager.I.OnHPIncrease += SpawnHeart;
+        GameManager.I.OnHPDecrease += ReduceHeart;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ReduceHeart() 
     {
-
+        for (int i = HeartGroup.Count-1; i >= GameManager.I.HP; i--)
+        {
+            HeartGroup[i].SetActive(false);
+        }
     }
 
     public void SpawnHeart()

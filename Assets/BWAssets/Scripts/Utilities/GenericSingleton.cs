@@ -31,9 +31,9 @@ public class GenericSingleton<T> : GenericSingleton where T : MonoBehaviour
 
                 if (instance == null)
                 {
-                    //GameObject singleton = new GameObject();
-                    //instance = singleton.AddComponent<T>();
-                    //singleton.name = instance.GetType().Name;
+                    GameObject singleton = new GameObject();
+                    instance = singleton.AddComponent<T>();
+                    singleton.name = instance.GetType().Name;
                 }
             }
 

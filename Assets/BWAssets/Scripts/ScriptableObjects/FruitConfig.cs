@@ -6,6 +6,8 @@ using UnityEngine;
 public class FruitConfig : ScriptableObject
 {
     public FruitLevelValues[] LevelScaleValues;
+    public float FruitLifeTime;
+    public float[] FruitEachTime;
 
     [System.Serializable]
     public class FruitLevelValues

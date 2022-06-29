@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using BWAssets.Game;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -26,5 +27,7 @@ public class PausePopup : BasePopup
 
     protected void OnResumeClick()
     {
+        base.HidePopup();
+
     }
 }

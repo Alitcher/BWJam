@@ -18,5 +18,5 @@ MonoBehaviour:
   Yellow:
     serializedVersion: 2
     rgba: 4283228415
-  MoneyGoalToBeatLevel: 120
+  MoneyGoalToBeatLevel: 500
   GameTimeInSeconds: 120

@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using BWAssets.Game;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class BasePopup : MonoBehaviour
@@ -15,13 +17,18 @@ public class BasePopup : MonoBehaviour
     {
         
     }
-    protected void OnClosePopup() 
+
+
+    protected void OnMenuClick()
     {
-    
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Menu");
     }
 
     protected void HidePopup() 
     {
         this.gameObject.SetActive(false);
+        GameManager.I.IsGamePaused = false;
+        Time.timeScale = 1;
     }
 }

@@ -9,6 +9,7 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private Button shopBtn;
     [SerializeField] private Button playBtn;
     [SerializeField] private Button creditBtn;
+    [SerializeField] private Button quitBtn;
 
     [SerializeField] private GameObject menuPanel, creditPanel;
 
@@ -20,5 +21,10 @@ public class MenuManager : MonoBehaviour
     public void ShowCredit() 
     {
         creditPanel.SetActive(true);
+    }
+
+    public void OnQuit()
+    {
+        Application.Quit();
     }
 }

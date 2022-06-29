@@ -44,6 +44,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   devPanel: {fileID: 0}
+  camManagerRef: {fileID: 0}
+  bgm: {fileID: 0}
+  CurrentGameTime: 0
   ConfigRef: {fileID: 11400000, guid: 1c903cd6c6d55f9458ae62d8ec8d871f, type: 2}
   RegisteredSeeds: []
+  RegisteredPlants: []
   shakerRef: {fileID: 0}
+  CurrentProgress: 2
+  parallaxEnv: {fileID: 0}

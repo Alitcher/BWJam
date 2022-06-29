@@ -10,11 +10,18 @@ public class UiManager : MonoBehaviour
     [SerializeField] private DevDebugPanel devPanel;
     private bool isDebugPanelOn;
 #endif
-
+    [SerializeField] private Button MenuButton;
+    [SerializeField] private LevelCompletedPopup levelCompletedPopup;
+    [SerializeField] private LevelDefeatedPopup levelDefeatedPopup;
+    [SerializeField] private PausePopup pausePopup;
     [SerializeField] private MoneyBar moneyBar;
+
     // Start is called before the first frame update
     void Start()
     {
+        MenuButton.onClick.AddListener(OnGamePaused);
+        GameManager.I.OnGameWon += () => levelCompletedPopup.gameObject.SetActive(true);
+        GameManager.I.OnGameDefeated += () => levelDefeatedPopup.gameObject.SetActive(true);
     }
 
 #if UNITY_EDITOR
@@ -28,5 +35,13 @@ public class UiManager : MonoBehaviour
         }
     }
 #endif
+
+    public void OnGamePaused() 
+    {
+        GameManager.I.IsGamePaused = true;
+        Time.timeScale = 0;
+        pausePopup.gameObject.SetActive(true);
+        SoundManager.I.Play2("ButtonClick");
+    }
 
 }
