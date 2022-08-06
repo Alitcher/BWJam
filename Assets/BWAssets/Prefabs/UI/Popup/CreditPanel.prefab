@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1451405488982211638
 RectTransform:
   m_ObjectHideFlags: 0
@@ -127,7 +127,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 491.63, y: -108.8}
+  m_AnchoredPosition: {x: 491.63, y: -108.79999}
   m_SizeDelta: {x: 743.21155, y: 47.511246}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1451405489752326441
@@ -170,7 +170,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Created by: Grovebit'
+  m_Text: 'Created by:'
 --- !u!1 &1451405490120294745
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,7 +286,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -298.6, y: -108.8}
+  m_AnchoredPosition: {x: -298.6, y: -108.79999}
   m_SizeDelta: {x: 609.06433, y: 47.511246}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1267411218128623674
