@@ -11,14 +11,15 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private Button creditBtn;
     [SerializeField] private Button quitBtn;
 
-    [SerializeField] private Text moneyGoalText, LevelText;
+    [SerializeField] private Text moneyGoalText, LevelText, versionText;
     [SerializeField] private BWConfig config;
-    [SerializeField] private GameObject menuPanel, creditPanel;
+    [SerializeField] private GameObject menuPanel, creditPanel, menuContent;
 
     public void Start()
     {
+        versionText.text = $"v{Application.version}";
         moneyGoalText.text = $"Money goal: ${config.MoneyGoalToBeatLevel}";
-        LevelText.text = $"Level: {config.MoneyGoalToBeatLevel / 500}";
+        LevelText.text = $"Level: {config.PlayerLevel}";
     }
     public void PlayGame()
     {
@@ -28,6 +29,7 @@ public class MenuManager : MonoBehaviour
     public void ShowCredit() 
     {
         creditPanel.SetActive(true);
+        menuContent.SetActive(false);
     }
 
     public void OnQuit()

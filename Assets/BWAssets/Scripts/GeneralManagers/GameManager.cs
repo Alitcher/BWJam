@@ -21,7 +21,7 @@ namespace BWAssets.Game
         public List<GameObject> RegisteredSeeds;
         public List<Plant> RegisteredPlants;
         public LayerShaker shakerRef;
-        public GameProgress CurrentProgress;
+        public GameState CurrentProgress;
         public Transform parallaxEnv;
         public Action OnHPIncrease, OnHPDecrease, OnGameDefeated, OnGameWon;
         public Action<float> OnMoneyIncrease;
@@ -54,9 +54,9 @@ namespace BWAssets.Game
             HP = 3;
             MoneyCollected = 0;
             Time.timeScale = 1;
+            CurrentProgress = GameState.Gameplay;
             CurrentGameTime = ConfigRef.GameTimeInSeconds;
-            // CurrentProgress = GameProgress.JustStarted;
-            camManagerRef.CheckCurrentProgress(CurrentProgress);
+            camManagerRef.CheckCurrentProgress(ConfigRef.PlayerLevel);
 
             InvokeRepeating("CountDownTime", 1.0f, 1.0f);
         }
@@ -90,12 +90,6 @@ namespace BWAssets.Game
         // Update is called once per frame
         void Update()
         {
-            if (CurrentGameTime <= 90)
-            {
-                CurrentProgress = GameProgress.Max;
-                camManagerRef.CheckCurrentProgress(CurrentProgress);
-            }
-
             if (IsGameEnded())
             {
                 Time.timeScale = 0;
@@ -112,14 +106,6 @@ namespace BWAssets.Game
                 OnGameWon.Invoke();
                 return;
             }
-#if(UNITY_EDITOR)
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                if (CurrentProgress < GameProgress.Max)
-                    CurrentProgress++;
-                camManagerRef.CheckCurrentProgress(CurrentProgress);
-            }
-#endif
         }
     }
 }

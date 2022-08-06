@@ -8,15 +8,16 @@ public class CameraManager : MonoBehaviour
 {
     [SerializeField] private CameraScaleValues[] CameraOnProgress = new CameraScaleValues[3];
     [SerializeField] private AudioSource ss;
-    public void CheckCurrentProgress(GameProgress progress)
+
+    public void CheckCurrentProgress(int playerLv)
     {
-        if ((int)progress >= CameraOnProgress.Length) 
+        if (playerLv >= CameraOnProgress.Length) 
             return;
 
         //SoundManager.I.Play2("CameraExpand");
         ss.Play();
-        Camera.main.transform.DOLocalMoveY(CameraOnProgress[(int)progress].YValues, CameraOnProgress[(int)progress].duration);
-        Camera.main.DOOrthoSize(CameraOnProgress[(int)progress].Size, CameraOnProgress[(int)progress].duration);
+        Camera.main.transform.DOLocalMoveY(CameraOnProgress[playerLv].YValues, CameraOnProgress[playerLv].duration);
+        Camera.main.DOOrthoSize(CameraOnProgress[playerLv].Size, CameraOnProgress[playerLv].duration);
     }
 
     [System.Serializable]
