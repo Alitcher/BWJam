@@ -598,7 +598,7 @@ MonoBehaviour:
   - YValues: 0
     Size: 0
     duration: 0
-  - YValues: -3
+  - YValues: -2.75
     Size: 5
     duration: 2.5
   - YValues: -2.5
@@ -2215,6 +2215,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6523919131365232885, guid: f8e857716f1c1494ab15dc988979a396,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6523919131365232885, guid: f8e857716f1c1494ab15dc988979a396,
+        type: 3}
+      propertyPath: m_Colors.m_DisabledColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6523919131365232885, guid: f8e857716f1c1494ab15dc988979a396,
+        type: 3}
+      propertyPath: m_Colors.m_DisabledColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6523919131365232885, guid: f8e857716f1c1494ab15dc988979a396,
+        type: 3}
+      propertyPath: m_Colors.m_DisabledColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6523919131365232885, guid: f8e857716f1c1494ab15dc988979a396,
+        type: 3}
+      propertyPath: m_Colors.m_DisabledColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6523919132661932423, guid: f8e857716f1c1494ab15dc988979a396,
         type: 3}
