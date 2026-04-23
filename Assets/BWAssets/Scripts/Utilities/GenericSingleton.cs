@@ -21,9 +21,9 @@ public class GenericSingleton<T> : GenericSingleton where T : MonoBehaviour
 
             if (instance == null)
             {
-                instance = FindObjectOfType<T>();
+                instance = FindFirstObjectByType<T>();
 
-                if (FindObjectsOfType(typeof(T)).Length > 1)
+                if (FindObjectsByType<T>(FindObjectsSortMode.None).Length > 1)
                 {
                     print("has duplicated singleton");
                     return instance;
