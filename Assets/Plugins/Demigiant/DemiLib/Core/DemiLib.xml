@@ -4,6 +4,22 @@
         <name>DemiLib</name>
     </assembly>
     <members>
+        <member name="T:DG.DemiLib.Attributes.DeRangeAttribute">
+            <summary>
+            <code>Property attribute</code><para/>
+            Shows a float/int value with a slider.
+            Works like Unity's Range attribute, but has extra options for custom label, and also works with DemiLib's <code>Range</code> structs
+            </summary>
+        </member>
+        <member name="M:DG.DemiLib.Attributes.DeRangeAttribute.#ctor(System.Single,System.Single,System.String)">
+            <summary>
+            Shows a float/int value with a slider.
+            Works like Unity's Range attribute, but has extra options for custom label, and also works with DemiLib's <code>Range</code> structs
+            </summary>
+            <param name="min">Min value</param>
+            <param name="max">Max value</param>
+            <param name="label">Override field label</param>
+        </member>
         <member name="T:DG.DemiLib.Attributes.DeScriptExecutionOrderAttribute">
             <summary>
             <code>Class attribute</code><para/>
@@ -198,8 +214,39 @@
             Returns a random value within this range (min/max included)
             </summary>
         </member>
+        <member name="M:DG.DemiLib.Range.Evaluate(System.Single)">
+            <summary>
+            Returns a value within the range at the given 0-1 (clamped) percentage
+            </summary>
+        </member>
         <member name="M:DG.DemiLib.Range.ToString">
             <inheritdoc />
+        </member>
+        <member name="M:DG.DemiLib.Utils.DeRuntimeUtils.GetOnlyComponentsInChildren``1(UnityEngine.GameObject,System.Boolean)">
+            <summary>
+            Returns ONLY the Components in the children, and ignores the parent.
+            </summary>
+            <param name="includeInactive">If TRUE also includes inactive children</param>
+        </member>
+        <member name="M:DG.DemiLib.Utils.DeRuntimeUtils.GetOnlyComponentInChildren``1(UnityEngine.GameObject,System.Boolean)">
+            <summary>
+            Returns the Component only if it's in a child, and ignores the parent.
+            </summary>
+            <param name="includeInactive">If TRUE also searches inactive children</param>
+        </member>
+        <member name="M:DG.DemiLib.Utils.DeRuntimeUtils.ToHex(UnityEngine.Color32,System.Boolean)">
+            <summary>
+            Returns a HEX version of the given Unity Color, without the initial #
+            </summary>
+            <param name="includeAlpha">If TRUE, also converts the alpha value and returns a hex of 8 characters,
+            otherwise doesn't and returns a hex of 6 characters</param>
+        </member>
+        <member name="M:DG.DemiLib.Utils.DeRuntimeUtils.ToHex(UnityEngine.Color,System.Boolean)">
+            <summary>
+            Returns a HEX version of the given Unity Color, without the initial #
+            </summary>
+            <param name="includeAlpha">If TRUE, also converts the alpha value and returns a hex of 8 characters,
+            otherwise doesn't and returns a hex of 6 characters</param>
         </member>
     </members>
 </doc>
